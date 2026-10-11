@@ -1,13 +1,11 @@
 # SentimentScope: Sentiment Analysis with Transformers
 
 ## Overview
-This project trains a transformer-based model from scratch in PyTorch to classify IMDB movie reviews as positive or negative (binary sentiment classification). It was built as part of the AWS AI Programming Nanodegree.
+This project trains a transformer-based PyTorch model for binary sentiment classification on IMDB movie reviews. It was built as part of the AWS AI Programming Nanodegree.
 
 ## Files in This Repo
 - `SentimentScope_starter.ipynb`: the main notebook containing all code, outputs, and the written conclusion.
-- `aclImdb_v1.tar.gz`: the IMDB dataset (25,000 training and 25,000 test reviews).
 - `sentiment_transformer.pt`: the saved weights of the trained model.
-- `.gitattributes`: Git configuration for how files are handled in the repo.
 - `README.md`: this overview.
 
 ## Approach
